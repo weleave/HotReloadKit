@@ -1230,6 +1230,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding nlohmann_json"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]"
+		},
+		{
 			"name" : "ProcessorCount_cmd_nproc",
 			"properties" : 
 			[
@@ -1308,6 +1320,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/dministrator/hot_reload_tool"
+		},
+		{
+			"name" : "nlohmann_json_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for nlohmann_json."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/share/cmake/nlohmann_json"
+		},
+		{
+			"name" : "yaml-cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for yaml-cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp"
 		}
 	],
 	"kind" : "cache",

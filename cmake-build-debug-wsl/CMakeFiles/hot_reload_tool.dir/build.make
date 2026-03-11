@@ -69,31 +69,111 @@ include CMakeFiles/hot_reload_tool.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hot_reload_tool.dir/flags.make
 
-CMakeFiles/hot_reload_tool.dir/main.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
-CMakeFiles/hot_reload_tool.dir/main.cpp.o: /home/dministrator/hot_reload_tool/main.cpp
-CMakeFiles/hot_reload_tool.dir/main.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hot_reload_tool.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/main.cpp.o -MF CMakeFiles/hot_reload_tool.dir/main.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/main.cpp.o -c /home/dministrator/hot_reload_tool/main.cpp
+CMakeFiles/hot_reload_tool.dir/src/types.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/types.cpp.o: /home/dministrator/hot_reload_tool/src/types.cpp
+CMakeFiles/hot_reload_tool.dir/src/types.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/types.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/types.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/types.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/types.cpp.o -c /home/dministrator/hot_reload_tool/src/types.cpp
 
-CMakeFiles/hot_reload_tool.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/main.cpp > CMakeFiles/hot_reload_tool.dir/main.cpp.i
+CMakeFiles/hot_reload_tool.dir/src/types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/types.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/types.cpp > CMakeFiles/hot_reload_tool.dir/src/types.cpp.i
 
-CMakeFiles/hot_reload_tool.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/main.cpp -o CMakeFiles/hot_reload_tool.dir/main.cpp.s
+CMakeFiles/hot_reload_tool.dir/src/types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/types.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/types.cpp -o CMakeFiles/hot_reload_tool.dir/src/types.cpp.s
+
+CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o: /home/dministrator/hot_reload_tool/src/file_watcher.cpp
+CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o -c /home/dministrator/hot_reload_tool/src/file_watcher.cpp
+
+CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/file_watcher.cpp > CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.i
+
+CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/file_watcher.cpp -o CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.s
+
+CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o: /home/dministrator/hot_reload_tool/src/hot_reload_app.cpp
+CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o -c /home/dministrator/hot_reload_tool/src/hot_reload_app.cpp
+
+CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/hot_reload_app.cpp > CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.i
+
+CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/hot_reload_app.cpp -o CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.s
+
+CMakeFiles/hot_reload_tool.dir/src/main.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/main.cpp.o: /home/dministrator/hot_reload_tool/src/main.cpp
+CMakeFiles/hot_reload_tool.dir/src/main.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/main.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/main.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/main.cpp.o -c /home/dministrator/hot_reload_tool/src/main.cpp
+
+CMakeFiles/hot_reload_tool.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/main.cpp > CMakeFiles/hot_reload_tool.dir/src/main.cpp.i
+
+CMakeFiles/hot_reload_tool.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/main.cpp -o CMakeFiles/hot_reload_tool.dir/src/main.cpp.s
+
+CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o: /home/dministrator/hot_reload_tool/src/directory_scanner.cpp
+CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o -c /home/dministrator/hot_reload_tool/src/directory_scanner.cpp
+
+CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/directory_scanner.cpp > CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.i
+
+CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/directory_scanner.cpp -o CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.s
+
+CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o: CMakeFiles/hot_reload_tool.dir/flags.make
+CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o: /home/dministrator/hot_reload_tool/src/resource_store.cpp
+CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o: CMakeFiles/hot_reload_tool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o -MF CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o.d -o CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o -c /home/dministrator/hot_reload_tool/src/resource_store.cpp
+
+CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dministrator/hot_reload_tool/src/resource_store.cpp > CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.i
+
+CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dministrator/hot_reload_tool/src/resource_store.cpp -o CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.s
 
 # Object files for target hot_reload_tool
 hot_reload_tool_OBJECTS = \
-"CMakeFiles/hot_reload_tool.dir/main.cpp.o"
+"CMakeFiles/hot_reload_tool.dir/src/types.cpp.o" \
+"CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o" \
+"CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o" \
+"CMakeFiles/hot_reload_tool.dir/src/main.cpp.o" \
+"CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o" \
+"CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o"
 
 # External object files for target hot_reload_tool
 hot_reload_tool_EXTERNAL_OBJECTS =
 
-hot_reload_tool: CMakeFiles/hot_reload_tool.dir/main.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/types.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/main.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o
+hot_reload_tool: CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o
 hot_reload_tool: CMakeFiles/hot_reload_tool.dir/build.make
 hot_reload_tool: CMakeFiles/hot_reload_tool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hot_reload_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable hot_reload_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hot_reload_tool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

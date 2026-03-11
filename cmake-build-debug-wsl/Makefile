@@ -129,29 +129,149 @@ hot_reload_tool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/build
 .PHONY : hot_reload_tool/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/directory_scanner.o: src/directory_scanner.cpp.o
+.PHONY : src/directory_scanner.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/directory_scanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.o
+.PHONY : src/directory_scanner.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/directory_scanner.i: src/directory_scanner.cpp.i
+.PHONY : src/directory_scanner.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/directory_scanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.i
+.PHONY : src/directory_scanner.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/directory_scanner.s: src/directory_scanner.cpp.s
+.PHONY : src/directory_scanner.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/directory_scanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/directory_scanner.cpp.s
+.PHONY : src/directory_scanner.cpp.s
+
+src/file_watcher.o: src/file_watcher.cpp.o
+.PHONY : src/file_watcher.o
+
+# target to build an object file
+src/file_watcher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.o
+.PHONY : src/file_watcher.cpp.o
+
+src/file_watcher.i: src/file_watcher.cpp.i
+.PHONY : src/file_watcher.i
+
+# target to preprocess a source file
+src/file_watcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.i
+.PHONY : src/file_watcher.cpp.i
+
+src/file_watcher.s: src/file_watcher.cpp.s
+.PHONY : src/file_watcher.s
+
+# target to generate assembly for a file
+src/file_watcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/file_watcher.cpp.s
+.PHONY : src/file_watcher.cpp.s
+
+src/hot_reload_app.o: src/hot_reload_app.cpp.o
+.PHONY : src/hot_reload_app.o
+
+# target to build an object file
+src/hot_reload_app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.o
+.PHONY : src/hot_reload_app.cpp.o
+
+src/hot_reload_app.i: src/hot_reload_app.cpp.i
+.PHONY : src/hot_reload_app.i
+
+# target to preprocess a source file
+src/hot_reload_app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.i
+.PHONY : src/hot_reload_app.cpp.i
+
+src/hot_reload_app.s: src/hot_reload_app.cpp.s
+.PHONY : src/hot_reload_app.s
+
+# target to generate assembly for a file
+src/hot_reload_app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/hot_reload_app.cpp.s
+.PHONY : src/hot_reload_app.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/resource_store.o: src/resource_store.cpp.o
+.PHONY : src/resource_store.o
+
+# target to build an object file
+src/resource_store.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.o
+.PHONY : src/resource_store.cpp.o
+
+src/resource_store.i: src/resource_store.cpp.i
+.PHONY : src/resource_store.i
+
+# target to preprocess a source file
+src/resource_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.i
+.PHONY : src/resource_store.cpp.i
+
+src/resource_store.s: src/resource_store.cpp.s
+.PHONY : src/resource_store.s
+
+# target to generate assembly for a file
+src/resource_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/resource_store.cpp.s
+.PHONY : src/resource_store.cpp.s
+
+src/types.o: src/types.cpp.o
+.PHONY : src/types.o
+
+# target to build an object file
+src/types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/types.cpp.o
+.PHONY : src/types.cpp.o
+
+src/types.i: src/types.cpp.i
+.PHONY : src/types.i
+
+# target to preprocess a source file
+src/types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/types.cpp.i
+.PHONY : src/types.cpp.i
+
+src/types.s: src/types.cpp.s
+.PHONY : src/types.s
+
+# target to generate assembly for a file
+src/types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/src/types.cpp.s
+.PHONY : src/types.cpp.s
 
 # Help Target
 help:
@@ -162,9 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hot_reload_tool"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/directory_scanner.o"
+	@echo "... src/directory_scanner.i"
+	@echo "... src/directory_scanner.s"
+	@echo "... src/file_watcher.o"
+	@echo "... src/file_watcher.i"
+	@echo "... src/file_watcher.s"
+	@echo "... src/hot_reload_app.o"
+	@echo "... src/hot_reload_app.i"
+	@echo "... src/hot_reload_app.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/resource_store.o"
+	@echo "... src/resource_store.i"
+	@echo "... src/resource_store.s"
+	@echo "... src/types.o"
+	@echo "... src/types.i"
+	@echo "... src/types.s"
 .PHONY : help
 
 

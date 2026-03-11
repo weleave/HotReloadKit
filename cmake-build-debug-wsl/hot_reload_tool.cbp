@@ -5,7 +5,7 @@
 		<Option title="hot_reload_tool"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\cmake\;CMake Files\..\..\..\usr\share\cmake\nlohmann_json\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/dministrator/hot_reload_tool/cmake-build-debug-wsl"/>
@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/dministrator/hot_reload_tool/include"/>
 					<Add directory="/usr/include/c++/13"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
 					<Add directory="/usr/include/c++/13/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/dministrator/hot_reload_tool/include"/>
 					<Add directory="/usr/include/c++/13"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
 					<Add directory="/usr/include/c++/13/backward"/>
@@ -82,11 +84,62 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dministrator/hot_reload_tool/main.cpp">
+		<Unit filename="/home/dministrator/hot_reload_tool/include/hotreload/directory_scanner.h">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/include/hotreload/file_watcher.h">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/include/hotreload/hot_reload_app.h">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/include/hotreload/resource_store.h">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/include/hotreload/types.h">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/directory_scanner.cpp">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/file_watcher.cpp">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/hot_reload_app.cpp">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/main.cpp">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/resource_store.cpp">
+			<Option target="hot_reload_tool"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/src/types.cpp">
 			<Option target="hot_reload_tool"/>
 		</Unit>
 		<Unit filename="/home/dministrator/hot_reload_tool/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/dministrator/hot_reload_tool/../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

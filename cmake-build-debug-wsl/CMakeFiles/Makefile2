@@ -81,12 +81,12 @@ clean: CMakeFiles/hot_reload_tool.dir/clean
 CMakeFiles/hot_reload_tool.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hot_reload_tool.dir/build.make CMakeFiles/hot_reload_tool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2 "Built target hot_reload_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target hot_reload_tool"
 .PHONY : CMakeFiles/hot_reload_tool.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hot_reload_tool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hot_reload_tool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dministrator/hot_reload_tool/cmake-build-debug-wsl/CMakeFiles 0
 .PHONY : CMakeFiles/hot_reload_tool.dir/rule
