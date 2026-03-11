@@ -83,4 +83,64 @@ namespace hotreload
         return false;
     }
 
+    void ResourceStore::remove_one(const fs::path& path)
+    {
+        const auto key = normalize_key(path);
+        if (metas_.find(key) == metas_.end())
+        {
+            std::cout << "[remove_one] key not in metas_" << "\n";
+        }
+        metas_.erase(key);
+
+        if (text_map_.find(key) == text_map_.end())
+        {
+            std::cout << "[remove_one] key not in text_map_" << "\n";
+        }
+        text_map_.erase(key);
+
+        if (json_map_.find(key) == json_map_.end())
+        {
+            std::cout << "[remove_one] key not in json_map_" << "\n";
+        }
+        json_map_.erase(key);
+
+        if (yaml_map_.find(key) == yaml_map_.end())
+        {
+            std::cout << "[remove_one] key not in yaml_map_" << "\n";
+        }
+        yaml_map_.erase(key);
+
+        std::cout << "[remove_one] removed: " << path << "\n";
+    }
+
+    const std::string* ResourceStore::get_text(const fs::path& path) const
+    {
+        const auto key = normalize_key(path);
+        auto it = text_map_.find(key);
+        return (it == text_map_.end())? nullptr: &it->second;
+    }
+
+    const nlohmann::json* ResourceStore::get_json(const fs::path& path) const
+    {
+        const auto key = normalize_key(path);
+        auto it = json_map_.find(key);
+        return (it == json_map_.end())? nullptr: &it->second;
+    }
+
+    const YAML::Node* ResourceStore::get_yaml(const fs::path& path) const
+    {
+        const auto key = normalize_key(path);
+        auto it = yaml_map_.find(key);
+        return (it == yaml_map_.end())? nullptr: &it->second;
+    }
+
+    void ResourceStore::print_summary() const
+    {
+        std::cout << "[summary] text = " << text_count()
+                  << ", json = " << json_count()
+                  << ", yaml = " << yaml_count()
+                  << ", total = " << total_count()
+                  << "\n";
+    }
+
 } // namespace hotreload

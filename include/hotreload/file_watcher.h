@@ -1,16 +1,18 @@
-//
-// Created by Administrator on 2026/3/11.
-//
+#pragma once
 
-#ifndef FILE_WATCHER_H
-#define FILE_WATCHER_H
+#include <unordered_map>
+#include <vector>
+#include "hotreload/types.h"
 
+namespace hotreload
+{
+    class FileWatcher
+    {
+    public:
+        void seed(const std::vector<ResourceMeta>& items);
+        std::vector<FileChange> poll(const fs::path& root);
 
-
-class file_watcher {
-
-};
-
-
-
-#endif //FILE_WATCHER_H
+    private:
+        std::unordered_map<std::string, fs::file_time_type> known_;
+    };
+}

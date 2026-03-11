@@ -26,6 +26,7 @@ namespace hotreload
         std::size_t text_count() const { return text_map_.size(); }
         std::size_t json_count() const { return json_map_.size(); }
         std::size_t yaml_count() const { return yaml_map_.size(); }
+        std::size_t total_count() const { return metas_.size(); }
 
     private:
         std::unordered_map<std::string, ResourceMeta> metas_;

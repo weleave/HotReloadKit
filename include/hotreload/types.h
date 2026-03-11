@@ -33,6 +33,7 @@ namespace hotreload
         fs::file_time_type last_write_time{};
         ResourceMeta(fs::path path_, ResourceKind kind_, fs::file_time_type last_write_time_) :
             path(path_), kind(kind_), last_write_time(last_write_time_) { }
+        ResourceMeta() = default;
     };
 
     struct FileChange // 文件变化事件

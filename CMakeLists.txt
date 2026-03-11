@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(nlohmann_json CONFIG REQUIRED)
 find_package(yaml-cpp REQUIRED)
 
+
 add_executable(hot_reload_tool
         src/types.cpp
         src/file_watcher.cpp
@@ -21,6 +22,11 @@ add_executable(hot_reload_tool
         include/hotreload/hot_reload_app.h
         src/directory_scanner.cpp
         src/resource_store.cpp
+)
+
+target_link_libraries(hot_reload_tool PRIVATE
+        nlohmann_json::nlohmann_json
+        yaml-cpp
 )
 
 target_include_directories(hot_reload_tool PRIVATE include)

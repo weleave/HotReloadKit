@@ -1,0 +1,5 @@
+renderer: opengl
+vsync: true
+max_fps: 60
+
+aaaa: 123

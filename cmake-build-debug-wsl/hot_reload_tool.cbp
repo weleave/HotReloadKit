@@ -25,13 +25,13 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dministrator/hot_reload_tool/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/usr/include/c++/13"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
 					<Add directory="/usr/include/c++/13/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j20 -f &quot;/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 hot_reload_tool"/>
@@ -48,13 +48,13 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dministrator/hot_reload_tool/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/usr/include/c++/13"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
 					<Add directory="/usr/include/c++/13/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j20 -f &quot;/home/dministrator/hot_reload_tool/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 hot_reload_tool/fast"/>
